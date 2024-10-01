@@ -2,13 +2,13 @@
 
 ## Description
 
-This file provides guidelines and instructions on how to contribute a new Docker image to the repository.
+This file provides guidelines and instructions on how to contribute a new Dockerfile to the repository.
 
 ---
 
 ## For Contribution
 
-Create your own docker environment based on the supported environments in `README.md`, make the requred changes to `DESC.md` and add it to each environment you create. *Let's Dockerise*🐳
+Create your own docker environment based on the supported environments in [`README.md`](/Docker-Environment-Repository/README.md), make the required changes to [`DESC.md`](/Docker-Environment-Repository/DESC.md) and add it to each environment you create. *Let's Dockerise*🐳
 
 ---
 

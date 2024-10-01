@@ -2,7 +2,7 @@
 
 ## Description
 
-This Docker image is designed for <brief description of the functionality and purpose of the image>. It allows you to <explain what users can do with this image, any main features, etc.>.
+This Docker image is designed for \<brief description of the functionality and purpose of the image\>. It allows you to \<explain what users can do with this image, any main features, etc.\>.
 
 ## Getting Started
 
