@@ -4,7 +4,7 @@ Welcome to the Docker Environment Images Repository! 🎉
 
 ## 🚀 About the Project
 
-A collelction of Dockerfiles for a variety of tools, languages, and frameworks for ease of development and testing. Whether you are a beginner or an experienced developer, this repository is designed to make setting up your environment easier and faster.
+A collection of Dockerfiles for a variety of tools, languages, and frameworks for ease of development and testing. Whether you are a beginner or an experienced developer, this repository is designed to make setting up your environment easier and faster.
 
 ## 🌱 Supported Environments
 

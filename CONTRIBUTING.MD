@@ -1,10 +1,14 @@
 # Contributing to Docker Environment Repository
 
----
-
 ## Description
 
 This file provides guidelines and instructions on how to contribute a new Docker image to the repository.
+
+---
+
+## For Contribution
+
+Create your own docker environment based on the supported environments in `README.md`, make the requred changes to `DESC.md` and add it to each environment you create. *Let's Dockerise*🐳
 
 ---
 
@@ -31,9 +35,18 @@ EXPOSE <port-number>
 # Command to run the application
 CMD ["<command-to-run-app>"]
 
+
+
 ```
 
-`NOTE:` For better understaning, name the docker image as:
+---
+
+### Naming Convention for Docker Images
+
+---
+
+**NOTE:** For better understaning, name the docker image as:
+
 `<project-name>-<service-or-framework>-<environment>:<version>`
 
 `<project-name>`: The name of the project or service.
