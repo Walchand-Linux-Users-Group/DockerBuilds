@@ -8,7 +8,7 @@ This file provides guidelines and instructions on how to contribute a new Docker
 
 ## For Contribution
 
-Create your own docker environment based on the supported environments in [`README.md`](/Docker-Environment-Repository//README.md), make the required changes to `DESC.md` provided in every environment. *Let's Dockerise*🐳
+Create your own docker environment based on the supported environments in [`README.md`](https://github.com/Walchand-Linux-Users-Group/Docker-Environment-Repository/blob/main/README.md), make the required changes to `DESC.md` provided in every environment. *Let's Dockerise*🐳
 
 ---
 
