@@ -18,7 +18,7 @@ A collection of Dockerfiles for a variety of tools, languages, and frameworks fo
 
 ## 🏗️ Contributing
 
-We welcome contributions! Please check the [`CONTRIBUTING.md`](/Docker-Environment-Repository/CONTRIBUTING.md) file for guidelines on how to create and submit Dockerfiles.
+We welcome contributions! Please check the [`CONTRIBUTING.md`](/Docker-Environment-Repository//CONTRIBUTING.md) file for guidelines on how to create and submit Dockerfiles.
 
 ---
 
