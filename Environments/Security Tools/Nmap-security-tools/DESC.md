@@ -1,8 +1,9 @@
-# Docker Image: <image-name>
+# Docker Image: `nmap-security-tools`
 
 ## Description
 
-This Dockerfile is designed for **Security Tools** such as \<brief description of the functionality and purpose of the image\>. It allows you to \<explain what users can do with this image, any main features, etc.\>.
+This Dockerfile is designed to provide a portable, lightweight environment to use **Nmap**. It allows you to run Nmap directly within a container, making it ideal for network scanning, security assessments, and system administration tasks without needing to install Nmap on the host system.
+
 
 ## Getting Started
 
@@ -15,7 +16,7 @@ This Dockerfile is designed for **Security Tools** such as \<brief description o
 To build the Docker image, navigate to the directory where your `Dockerfile` is located and run the following command:
 
 ```
-docker build -t <image-name> <path-to-directory>
+sudo docker build -t nmap-security-tools .
 ```
 
 ## Running the Docker Image
@@ -23,15 +24,17 @@ docker build -t <image-name> <path-to-directory>
 To run the Docker image, use the following command:
 
 ```
-docker run [OPTIONS] <image-name>
-
+sudo docker run nmap-security-tools <target_ip>
 ```
 
 ## Features
 
-- <Feature 1: Brief explanation>
-- <Feature 2: Brief explanation>
-- <Feature 3: Brief explanation>
+- **Easy Deployment:** With Docker, you can quickly deploy this Nmap tool on various platforms, including cloud environments, for easy and scalable security auditing.
+- **No Unnecessary Packages:** The image only installs Nmap without any other optional packages 
+- **Customizable Scanning:** You can pass any Nmap command or argument directly to the container at runtime. For example: `To perform a simple ping scan.`
+    ```
+    docker run nmap-security-tools -sP 192.168.1.0/24
+    ```
 
 ---
 
