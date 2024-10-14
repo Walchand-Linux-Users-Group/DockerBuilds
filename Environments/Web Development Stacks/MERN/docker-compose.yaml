@@ -1,0 +1,40 @@
+version: '3.8'
+
+volumes:
+ mern-mongo-data:
+
+services:
+  database:
+    image: mongo
+    volumes:
+      - mern-mongo-data:/data/db
+    ports:
+      - "27017:27017"
+
+  backend:
+    build: 
+      context: ./Backend
+      dockerfile: Dockerfile
+    volumes:
+      - ./Backend:/app
+      - /app/node_modules 
+    ports:
+      - "3000:3000"
+    environment:
+      - DB_URI=mongodb://mongo:27017/
+    depends_on:
+      - database
+  
+  frontend:
+    build: 
+      context: ./Frontend
+      dockerfile: Dockerfile
+    volumes:
+      - ./Frontend:/app
+      - /app/node_modules
+    ports:
+      - "5173:5173"
+    environment:
+      - BACKEND_URI=http://localhost:3000
+    depends_on:
+      - backend
