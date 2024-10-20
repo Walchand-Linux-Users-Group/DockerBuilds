@@ -20,7 +20,7 @@ A collection of Dockerfiles for a variety of tools, languages, and frameworks fo
 
 We welcome contributions! Please check the [`CONTRIBUTING.md`](https://github.com/Walchand-Linux-Users-Group/Docker-Environment-Repository/blob/main/CONTRIBUTING.md) file for guidelines on how to create and submit Dockerfiles.
 
-# For refernence use these resources:
+# For reference use these resources:
 - [Docker](https://github.com/Walchand-Linux-Users-Group/Resources/blob/main/Events/Metamorphosis%202024/Docker/Docker.pdf)
 - [Essentails](https://sysdig.com/blog/dockerfile-best-practices/)
 
