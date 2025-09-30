@@ -16,7 +16,7 @@ torchvision==0.15.2
 jupyterlab==4.0.5
 jupyter-widgets==8.0.7
 ipywidgets==8.0.7
-jupyterlab-git==0.42.0
+jupyterlab-git==0.51.1
 
 # Data processing and utilities
 requests==2.31.0
