@@ -13,7 +13,7 @@ torch==2.0.1
 torchvision==0.15.2
 
 # Jupyter extensions and tools
-jupyterlab==4.0.5
+jupyterlab==4.4.8
 jupyter-widgets==8.0.7
 ipywidgets==8.0.7
 jupyterlab-git==0.42.0
