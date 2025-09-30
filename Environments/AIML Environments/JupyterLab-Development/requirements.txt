@@ -19,7 +19,7 @@ ipywidgets==8.0.7
 jupyterlab-git==0.42.0
 
 # Data processing and utilities
-requests==2.31.0
+requests==2.32.4
 beautifulsoup4==4.12.2
 openpyxl==3.1.2
 xlrd==2.0.1
