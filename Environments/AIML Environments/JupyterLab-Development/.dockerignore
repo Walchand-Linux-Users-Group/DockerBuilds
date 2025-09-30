@@ -1,0 +1,11 @@
+# Ignore these files and directories when building the Docker image
+README.md
+.git
+.gitignore
+notebooks/*
+data/*
+scripts/*
+*.log
+.DS_Store
+Thumbs.db
+.env

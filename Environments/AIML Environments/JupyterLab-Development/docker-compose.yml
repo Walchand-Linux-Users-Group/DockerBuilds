@@ -1,0 +1,19 @@
+version: '3.8'
+
+services:
+  jupyter-lab:
+    build: .
+    container_name: jupyter-lab-ml
+    ports:
+      - "8888:8888"
+    volumes:
+      - ./notebooks:/home/user/work/notebooks
+      - ./data:/home/user/work/data
+      - ./scripts:/home/user/work/scripts
+    environment:
+      - JUPYTER_ENABLE_LAB=yes
+      - JUPYTER_TOKEN=""
+      - GRANT_SUDO=yes
+    restart: unless-stopped
+    working_dir: /home/user/work
+    command: start-notebook.sh --NotebookApp.token='' --NotebookApp.password='' --NotebookApp.allow_root=True
