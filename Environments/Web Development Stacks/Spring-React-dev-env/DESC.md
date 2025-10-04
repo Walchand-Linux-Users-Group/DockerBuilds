@@ -1,18 +1,18 @@
-# 🐳 Docker Image: spring-react-dev-env
+# Docker Image: spring-react-dev-env
 
 ![Docker](https://img.shields.io/badge/Docker-Compose-blue)
 ![License](https://img.shields.io/badge/License-MIT-green)
 
-## 📖 Description
+##  Description
 
 This setup provides a complete, containerized development environment for building full-stack applications with a **Spring Boot backend** and a **React frontend**.  
 It uses **Docker Compose** to manage both services, with hot-reloading enabled through volume mounts.  
 
-👉 No local installation of **Java**, **Maven**, or **Node.js** is required.
+No local installation of **Java**, **Maven**, or **Node.js** is required.
 
 ---
 
-## 🚀 Getting Started / Workflow
+##  Getting Started / Workflow
 
 ### 1. Clone the Repository
 Clone this repository and navigate to the project directory:
@@ -72,13 +72,13 @@ The files will appear locally in your `./app-code/frontend` folder.
 
 ---
 
-### 6. Start Coding 🚀
+### 6. Start Coding 
 Edit the files locally in the `./app-code` directory.  
 The development servers inside the containers will **automatically detect changes** and **reload**.
 
 ---
 
-## 🌐 Access the Applications
+## Access the Applications
 
 - React App → [http://localhost:3000](http://localhost:3000)  
 - Spring Boot API → [http://localhost:8080](http://localhost:8080)  
