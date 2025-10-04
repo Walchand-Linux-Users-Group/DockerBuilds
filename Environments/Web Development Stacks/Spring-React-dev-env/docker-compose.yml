@@ -1,0 +1,26 @@
+version: '3.8'
+
+services:
+  backend:
+    build: ./backend
+    ports:
+      - "8080:8080"
+    # This is the magic part: it links the ./app-code/backend folder on your machine
+    # to the /app folder inside the container.
+    volumes:
+      - ./app-code/backend:/app
+    image: spring-dev-env:latest
+
+  frontend:
+    build: ./frontend
+    ports:
+      - "3000:3000"
+    # Similarly, this links the ./app-code/frontend folder to /app inside its container.
+    volumes:
+      - ./app-code/frontend:/app
+    image: react-dev-env:latest
+    depends_on:
+      - backend
+
+# Optional: You can create a placeholder directory for the user
+# by running `mkdir -p app-code/backend app-code/frontend` before they start. 
